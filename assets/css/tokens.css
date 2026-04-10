@@ -1,0 +1,12 @@
+:root {
+  --paper: #fffff8;
+  --ink: #111;
+  --muted: #555;
+  --light: #999;
+  --rule: #ccc;
+  --accent: #2c5f7c;
+  --accent-light: #e8f1f5;
+  --crisis: #8b3a3a;
+  --max: min(92vw, 880px);
+  --pad-x: clamp(1.15rem, 4vw, 2.75rem);
+}

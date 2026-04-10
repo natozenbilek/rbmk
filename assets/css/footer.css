@@ -1,0 +1,12 @@
+footer.site-footer {
+  max-width: var(--max); margin: 0 auto; padding: 1.5rem var(--pad-x) 2.5rem;
+  position: relative;
+}
+footer.site-footer::before {
+  content: ''; position: absolute; top: 0;
+  left: calc(-50vw + 50%); right: calc(-50vw + 50%);
+  height: 1px; background: var(--rule);
+}
+.footer-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.8rem; }
+.footer-top span { font-size: 0.8rem; color: var(--light); }
+.footer-note { font-size: 0.82rem; color: var(--light); font-style: italic; line-height: 1.5; max-width: 55ch; }

@@ -1,7 +1,24 @@
-const CACHE_NAME = 'rbmk-sim-v1';
+const CACHE_NAME = 'rbmk-site-v3';
 const ASSETS = [
+  'index.html',
   'rbmk-reactor.html',
   'manifest.json',
+  'assets/css/site.css',
+  'assets/css/tokens.css',
+  'assets/css/fonts.css',
+  'assets/css/reset.css',
+  'assets/css/nav.css',
+  'assets/css/layout.css',
+  'assets/css/hero.css',
+  'assets/css/sections.css',
+  'assets/css/footer.css',
+  'assets/css/animations.css',
+  'assets/css/responsive.css',
+  'assets/js/hero-network-config.js',
+  'assets/js/hero-network-math.js',
+  'assets/js/hero-network-graph.js',
+  'assets/js/hero-network-run.js',
+  'assets/js/scroll-reveal.js',
 ];
 
 self.addEventListener('install', event => {

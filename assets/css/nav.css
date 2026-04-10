@@ -1,0 +1,12 @@
+nav.topnav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(255,255,248,0.92);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  border-bottom: 0.5px solid var(--rule);
+  padding: 0.6rem var(--pad-x);
+  display: flex; justify-content: center; gap: 1.8rem;
+  flex-wrap: wrap;
+  font-size: 0.88rem; letter-spacing: 0.03em;
+}
+nav.topnav a { color: #3a3a3a; text-decoration: none; transition: color 0.2s; font-variant: small-caps; font-weight: 600; }
+nav.topnav a:hover { color: var(--ink); }

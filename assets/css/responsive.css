@@ -1,0 +1,16 @@
+@media (max-width: 560px) {
+  .hero { padding: 3.5rem 0 3rem; }
+  .hero-canvas { opacity: 0.3; }
+  .hero-text { text-align: center; }
+  .hero-links { justify-content: center; }
+  .hero-text .tagline { max-width: none; }
+  .entry { grid-template-columns: 1fr; }
+  .entry-date { text-align: left; }
+  nav.topnav { gap: 1rem; font-size: 0.84rem; }
+}
+@media print {
+  nav.topnav { display: none; }
+  body { background: #fff; }
+  main { max-width: none; }
+  .hero-canvas { display: none; }
+}

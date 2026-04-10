@@ -1,0 +1,4 @@
+main {
+  max-width: var(--max); margin: 0 auto;
+  padding: 0 var(--pad-x) clamp(2.25rem, 5vw, 3.25rem);
+}
